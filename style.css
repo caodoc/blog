@@ -7,61 +7,88 @@ body
 	background-attachment: fixed;
 	background-repeat: no-repeat; 
 	background-size: cover;
-	background-color: #36393f;
-    font-family: "JetBrains Mono", monospace;
-    color: #000000;
+	background-color: #3A3A40;
+	font-family: "JetBrains Mono", monospace;
+    font-size: 1.5vw;
+	color: #ffffff;
 }
 
 a
 {
-    color: #000000;
-    text-decoration-color: #89b4fa;
+	color: #ffffff;
+	text-decoration: none;
 }
 
-.content
+#container
 {
-    padding-left: 50px;
-    padding-right: 50px;
+	position: relative;
+	margin: auto auto;
+	width: 90%;
 }
 
-.title
+#title
 {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     font-size: 32px;
     font-weight: bold;
 }
 
-.description
+#description
 {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     font-size: 24px;
     font-weight: bold;
 }
 
 .blog
 {
+    position: relative;
+    width: max-content;
+	height: max-content;
     font-size: 24px;
+}
+
+.date
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.link:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
 }
 
 @media screen and (max-width: 1000px)
 {
-    .content
-    {
-        padding-left: 25px;
-        padding-right: 25px;
-        font-size: 16px;
-    }
-
-    .title
+    #title
     {
         font-size: 24px;
     }
 
-    .description
+    #description
     {
         font-size: 16px;
     }
 
     .blog
     {
+        width: 90%;
         font-size: 16px;
     }
 }

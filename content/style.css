@@ -1,28 +1,29 @@
 body 
 {
-    overflow-x: auto;
+	overflow-x: auto;
 	overflow-y: auto;
     background-image: url("./assets/main/background.jpg");
 	background-position: center center;
 	background-attachment: fixed;
 	background-repeat: no-repeat; 
 	background-size: cover;
-	background-color: #36393f;
-    font-family: "JetBrains Mono", monospace;
-    color: #000000;
+	background-color: #3A3A40;
+	font-family: "JetBrains Mono", monospace;
+    font-size: 1.5vw;
+	color: #ffffff;
 }
 
 a
 {
-    color: #000000;
-    text-decoration-color: #89b4fa;
+	color: #ffffff;
+	text-decoration: none;
 }
 
-.content
+.container
 {
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 16px;
+    position: relative;
+	margin: auto auto;
+	width: 90%;
 }
 
 .title
@@ -39,29 +40,27 @@ a
 
 .image_rec
 {
-    max-width: 60%;
+    width: 60%;
 }
 
 .image_sqr
 {
-    max-width: 70%;
+    width: 25%;
 }
 
 .codelang
 {
     font-size: 16px;
-    padding-left: 0px;
+}
+
+.link:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
 }
 
 @media screen and (max-width: 1000px)
 {
-    .content
-    {
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 16px;
-    }
-
     .title
     {
         font-size: 24px;
@@ -73,8 +72,10 @@ a
     }
 
     .image_rec
-    {
-        max-width: 100%;
+    {   
+        position: relative;
+        left: -30px;
+        width: 80vw;
     }
 
     .image_sqr
@@ -84,6 +85,14 @@ a
 
     .codelang
     {
-        font-size: 16px;
+        position: relative;
+        left: -15px;
+        width: 95vw;
+    }
+
+    .link
+    {
+        text-decoration: underline;
+        text-decoration-color: #ffffff;
     }
 }
