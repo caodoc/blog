@@ -9,7 +9,7 @@ body
 	background-size: cover;
 	background-color: #3A3A40;
 	font-family: "JetBrains Mono", monospace;
-    font-size: 1.5vw;
+    font-size: 24px;
 	color: #ffffff;
 }
 
@@ -23,54 +23,20 @@ a
 {
 	position: relative;
 	margin: auto auto;
-	width: 90%;
+	width: 75%;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #title
 {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     font-size: 32px;
     font-weight: bold;
-}
-
-#description
-{
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    font-size: 24px;
-}
-
-.blog
-{
-    position: relative;
-    width: max-content;
-	height: max-content;
-    font-size: 24px;
-}
-
-.date
-{
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.link:hover
-{
-    text-decoration: underline;
-    text-decoration-color: #ffffff;
 }
 
 #loading 
@@ -129,19 +95,13 @@ a
 
 @media screen and (max-width: 1000px)
 {
+	body
+	{
+		font-size: 16px;
+	}
+
     #title
     {
         font-size: 24px;
-    }
-
-    #description
-    {
-        font-size: 16px;
-    }
-
-    .blog
-    {
-        width: 90%;
-        font-size: 16px;
     }
 }
