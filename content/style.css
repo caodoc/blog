@@ -2,12 +2,12 @@ body
 {
 	overflow-x: auto;
 	overflow-y: auto;
-    background-image: url("./assets/main/background.jpg");
 	background-position: center center;
 	background-attachment: fixed;
 	background-repeat: no-repeat; 
 	background-size: cover;
-	background-color: #3A3A40;
+	background: linear-gradient(45deg,#0b4c80,#82167a) fixed;
+	margin: 0;
 	font-family: "JetBrains Mono", monospace;
     font-size: 16px;
 	color: #ffffff;
