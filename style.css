@@ -43,6 +43,18 @@ a
     font-weight: bold;
 }
 
+.infor-logo
+{
+	width: 4vw;
+	height: 4vw;
+	transition: 0.5s;
+}
+
+.infor-logo:hover
+{
+    transform: scale(1.075);
+}
+
 .custom-link
 {
     position: relative;
@@ -136,5 +148,11 @@ a
 	#container
 	{
 		height: min-content;
+	}
+
+	.infor-logo
+	{
+		height: 32px;
+		width: 32px;
 	}
 }
