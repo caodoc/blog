@@ -4,11 +4,16 @@
     <head>
         <head>
             <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <meta property="og:type" content="website"/>
+            <meta property="og:title" content="Only Ducca"/>
+            <meta property="og:description" content="Ducca's Personal Website For Dumb Dumb Things"/>
+            <meta property="og:image" content="https://raw.githubusercontent.com/caodoc/caodoc.github.io/main/assets/review.png"/>
+            <meta property="og:url" content="https://caodoc.github.io"/>
             
             <title> Notepad++ Easter Egg! </title>
     
-            <link rel="shortcut icon" type="image/x-icon" href="./assets/main/web_logo.png" width="64px" height="64px">
+            <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/caodoc/caodoc.github.io/main/assets/web_logo.png" width="64px" height="64px"/>
             <link rel="stylesheet" type="text/css" href="./style.css">
             <link rel="preconnect" href="https://fonts.bunny.net"/>
             <link href="https://fonts.bunny.net/css?family=inter:300,400,500,600,700|jetbrains-mono:300,400,500,600,700" rel="stylesheet"/>
@@ -16,28 +21,39 @@
     </head>
 
     <body>
-        <p class="title" align="center"> Notepad++ Easter Egg! </p>
         <div class="container">
-            <hr>
-            <p class="title_s"> What is Notepad++? </p>
-            <p> Notepad++ is a free source code editor (not an IDE), runs on MS Windows environment and supports several languages. </p>
-            <p> Read more about it at: <a class="link" href="https://notepad-plus-plus.org/" target="_blank"> notepad-plus-plus.org</a>. </p>
-            <p class="title_s"> Is Notepad++ good? </p>
-            <p> It has many built in tools: </p>
-            <ul>
-                <li> Marco. </li>
-                <li> Multi-editing. </li>
-                <li> Encode/Decode Base64. </li>
-                <li> ... </li>
-            </ul>
-            <p> So it will depend on your purpose. </p> 
-            <p class="title_s"> An Easter Egg! </p>
-            <ol>
-                <li> <p> Open Notepad++ and create new file. </p> </li>
-                <li> <p> Write "Space Invaders" and select it. </p> </li>
-                <li> <p> Press F1 and enjoy the Easter Egg! </p> </li>
-                <img class="image_rec" src="./assets/notepad_easteregg/tutorial.gif">
-            </ol>
+            <div class="header">
+                <text class="name"> Only Ducca </text>
+                <a href="https://caodoc.github.io">Home</a>
+                <a href="https://caodoc.github.io/about">About</a>
+                <a href="https://caodoc.github.io/blog">Blog</a>
+            </div>
+
+            </br>
+
+            <div class="content"> 
+                <p class="name"> What is Notepad++? </p>
+                <p> Notepad++ is a free source code editor (not an IDE), runs on MS Windows environment and supports several languages. </p>
+                <p> Read more about it at: <a class="link" href="https://notepad-plus-plus.org/" target="_blank"> notepad-plus-plus.org</a>. </p>
+                <p class="name"> Is Notepad++ good? </p>
+                <p> It has many built in tools: </p>
+                <ul>
+                    <li> Marco. </li>
+                    <li> Multi-editing. </li>
+                    <li> Encode/Decode Base64. </li>
+                    <li> ... </li>
+                </ul>
+                <p> So it will depend on your purpose. </p> 
+                <p class="name"> An Easter Egg! </p>
+                <ol>
+                    <li> <p> Open Notepad++ and create new file. </p> </li>
+                    <li> <p> Write "Space Invaders" and select all of the words. </p> </li>
+                    <li> <p> Press F1 and enjoy the Easter Egg! </p> </li>
+                    <img class="rec" src="./assets/notepad_easteregg/tutorial.gif">
+                </ol>
+            </div>
+            
+            <div class="footer" align="center"> Made with HTML,CSS and JavaScript </div>
         </div>
         <div id="loading"> <span id="loader"> </span> </div>
         <script src="./script.js"> </script>
